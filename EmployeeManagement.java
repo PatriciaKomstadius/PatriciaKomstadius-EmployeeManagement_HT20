@@ -94,10 +94,10 @@ public class EmployeeManagement {
             System.out.println(e);
         }
     }
-    public static void sortNameDecending(){
+    public static void sortNameDescending(){
         System.out.println("Employees Z-A:");
-        SortByNameDecending sortByNameDecending = new SortByNameDecending();
-        employees.sort(sortByNameDecending);
+        SortByNameDescending sortByNameDescending = new SortByNameDescending();
+        employees.sort(sortByNameDescending);
         for (Employee e: employees){
             System.out.println(e);
         }

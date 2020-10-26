@@ -1,6 +1,6 @@
 import java.util.Comparator;
 
-public class SortByNameDecending implements Comparator<Employee> {
+public class SortByNameDescending implements Comparator<Employee> {
 
     @Override
     public int compare(Employee o1, Employee o2) {

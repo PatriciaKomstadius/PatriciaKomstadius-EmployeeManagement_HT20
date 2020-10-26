@@ -34,7 +34,7 @@ public class Main {
         System.out.println("13. Show star employees only");
         System.out.println("14. Remove star employee");
         System.out.println("15. Sort employee by name ascending/stigande A-Z");
-        System.out.println("16. Sort employee by name decending/fallande Z-A");
+        System.out.println("16. Sort employee by name descending/fallande Z-A");
         System.out.println("0. Exit");
     }
 
@@ -111,7 +111,7 @@ public class Main {
                 EmployeeManagement.sortNameAscending();
                 break;
             case 16:
-                EmployeeManagement.sortNameDecending();
+                EmployeeManagement.sortNameDescending();
             default:
                 System.out.println("Please chose one of the options listed above.");
                 break;
